@@ -7,7 +7,7 @@ import router from "./routes/reservationRoute.js";
 const app = express();
 
 // Replace '*' with the specific origin of your frontend
-const allowedOrigin = "http://localhost:5173"; // Update this with your frontend's URL
+const allowedOrigin = "https://restuarant-50xq.onrender.com/"; // Update this with your frontend's URL
 
 app.use(cors({
     origin: allowedOrigin, // Allow only the frontend's origin

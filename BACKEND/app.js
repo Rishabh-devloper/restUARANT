@@ -9,7 +9,6 @@ const app = express();
 // Replace '*' with the specific origin of your frontend
 const allowedOrigin = "https://restuarant-backend-3fl1.onrender.com"; // Update this with your frontend's URL
 
-
 app.use(cors({
     origin: allowedOrigin, // Allow only the frontend's origin
     methods: ["GET", "POST"], // Specify allowed HTTP methods
